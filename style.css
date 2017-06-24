@@ -14,10 +14,12 @@ html, body{
   height: 100%;
   width:100%;
   margin: auto;
-  background: url("./image/bake.jpeg")no-repeat 50% 50%;
+  background: url("./image/bakery.jpg")no-repeat 50% 50%;
   display: table;
   /*table gives more control of the screen*/
+  position: static;
   background-size: cover;
+
 }
 /* aligning the button in the center. table cell puts it within the pic*/
 .intro .inner {
@@ -25,6 +27,7 @@ html, body{
   vertical-align: middle;
   width: 100%;
   max-width: none;
+  
 }
 
 .content{
